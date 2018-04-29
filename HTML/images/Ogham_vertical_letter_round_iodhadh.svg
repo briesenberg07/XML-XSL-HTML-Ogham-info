@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://web.resource.org/cc/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="60"
+   height="62.00005"
+   id="Ogham vertical letter round iodhadh"
+   sodipodi:version="0.32"
+   inkscape:version="0.44"
+   version="1.0"
+   sodipodi:docbase="D:\Home\Wikipedia\up"
+   sodipodi:docname="Ogham vertical letter round iodhadh.svg">
+  <defs
+     id="defs5908" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     gridtolerance="10000"
+     guidetolerance="10"
+     objecttolerance="10"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="8.65"
+     inkscape:cx="31.000025"
+     inkscape:cy="30"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     inkscape:window-width="1024"
+     inkscape:window-height="682"
+     inkscape:window-x="-4"
+     inkscape:window-y="-4" />
+  <metadata
+     id="metadata5911">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-480.4285,-522.3622)">
+    <path
+       style="fill:black;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:4.00000191;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 505.4285,573.3625 C 505.4285,575.40714 506.66916,577.15039 508.4285,577.925 L 508.4285,584.3625 L 512.4285,584.3625 L 512.4285,577.925 C 514.18785,577.15039 515.4285,575.40714 515.4285,573.3625 C 515.4285,571.31786 514.18785,569.57461 512.4285,568.8 L 512.4285,567.925 C 514.18785,567.15039 515.4285,565.40714 515.4285,563.3625 C 515.4285,561.31786 514.18785,559.57461 512.4285,558.8 L 512.4285,557.925 C 514.18785,557.15039 515.4285,555.40714 515.4285,553.3625 C 515.4285,551.31786 514.18785,549.57461 512.4285,548.8 L 512.4285,547.925 C 514.18785,547.15039 515.4285,545.40714 515.4285,543.3625 C 515.4285,541.31786 514.18785,539.57461 512.4285,538.8 L 512.4285,537.925 C 514.18785,537.15039 515.4285,535.40714 515.4285,533.3625 C 515.4285,531.31786 514.18785,529.57461 512.4285,528.8 L 512.4285,522.3625 L 508.4285,522.3625 L 508.4285,528.8 C 506.66916,529.57461 505.4285,531.31786 505.4285,533.3625 C 505.4285,535.40714 506.66916,537.15039 508.4285,537.925 L 508.4285,538.8 C 506.66916,539.57461 505.4285,541.31786 505.4285,543.3625 C 505.4285,545.40714 506.66916,547.15039 508.4285,547.925 L 508.4285,548.8 C 506.66916,549.57461 505.4285,551.31786 505.4285,553.3625 C 505.4285,555.40714 506.66916,557.15039 508.4285,557.925 L 508.4285,558.8 C 506.66916,559.57461 505.4285,561.31786 505.4285,563.3625 C 505.4285,565.40714 506.66916,567.15039 508.4285,567.925 L 508.4285,568.8 C 506.66916,569.57461 505.4285,571.31786 505.4285,573.3625 z "
+       id="path4909" />
+  </g>
+</svg>

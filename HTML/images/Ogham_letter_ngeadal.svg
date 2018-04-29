@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://web.resource.org/cc/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="55.125"
+   height="60"
+   id="Ogham letter ngeadal"
+   sodipodi:version="0.32"
+   inkscape:version="0.44"
+   version="1.0"
+   sodipodi:docbase="D:\Home\Wikipedia"
+   sodipodi:docname="Ogham letter ngeadal.svg">
+  <defs
+     id="defs2080" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     gridtolerance="10000"
+     guidetolerance="10"
+     objecttolerance="10"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="8.65"
+     inkscape:cx="27.5625"
+     inkscape:cy="30"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     inkscape:window-width="1024"
+     inkscape:window-height="682"
+     inkscape:window-x="-4"
+     inkscape:window-y="-4" />
+  <metadata
+     id="metadata2083">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-272.4375,-445.2193)">
+    <path
+       style="fill:black;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:3.9999969;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 299.15625,453.21933 L 288.84375,473.21933 L 272.4375,473.21933 L 272.4375,477.21933 L 286.75,477.21933 L 276.4375,497.21933 L 280.9375,497.21933 L 291.25,477.21933 L 296.6875,477.21933 L 286.375,497.21933 L 290.90625,497.21933 L 301.21875,477.21933 L 306.65625,477.21933 L 296.3125,497.21933 L 300.84375,497.21933 L 311.15625,477.21933 L 327.5625,477.21933 L 327.5625,473.21933 L 313.25,473.21933 L 323.5625,453.21933 L 319.0625,453.21933 L 308.71875,473.21933 L 303.28125,473.21933 L 313.59375,453.21933 L 309.09375,453.21933 L 298.78125,473.21933 L 293.34375,473.21933 L 303.65625,453.21933 L 299.15625,453.21933 z "
+       id="path2062" />
+  </g>
+</svg>

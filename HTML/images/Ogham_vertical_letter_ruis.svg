@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://web.resource.org/cc/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="60"
+   height="75.000046"
+   id="Ogham vertical letter ruis"
+   sodipodi:version="0.32"
+   inkscape:version="0.44"
+   version="1.0"
+   sodipodi:docbase="D:\Home\Wikipedia\up"
+   sodipodi:docname="Ogham vertical letter ruis.svg">
+  <defs
+     id="defs2107" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     gridtolerance="10000"
+     guidetolerance="10"
+     objecttolerance="10"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="6.9199958"
+     inkscape:cx="30"
+     inkscape:cy="37.500023"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     inkscape:window-width="1024"
+     inkscape:window-height="682"
+     inkscape:window-x="-4"
+     inkscape:window-y="-4" />
+  <metadata
+     id="metadata2110">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-1034.958,-193.5018)">
+    <path
+       style="fill:black;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:3.9999969;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 1042.958,241.783 L 1062.958,252.0955 L 1062.958,268.5017 L 1066.958,268.5017 L 1066.958,254.1892 L 1086.958,264.5017 L 1086.958,260.0017 L 1066.958,249.6892 L 1066.958,244.2517 L 1086.958,254.5642 L 1086.958,250.033 L 1066.958,239.7205 L 1066.958,234.283 L 1086.958,244.6267 L 1086.958,240.0955 L 1066.958,229.783 L 1066.958,224.3455 L 1086.958,234.658 L 1086.958,230.1267 L 1066.958,219.8142 L 1066.958,214.3767 L 1086.958,224.7205 L 1086.958,220.1892 L 1066.958,209.8767 L 1066.958,193.5017 L 1062.958,193.5017 L 1062.958,207.8142 L 1042.958,197.5017 L 1042.958,201.9705 L 1062.958,212.3142 L 1062.958,217.7517 L 1042.958,207.4392 L 1042.958,211.9392 L 1062.958,222.2517 L 1062.958,227.6892 L 1042.958,217.3767 L 1042.958,221.8767 L 1062.958,232.2205 L 1062.958,237.658 L 1042.958,227.3455 L 1042.958,231.8455 L 1062.958,242.158 L 1062.958,247.5955 L 1042.958,237.283 L 1042.958,241.783 z "
+       id="path2886" />
+  </g>
+</svg>

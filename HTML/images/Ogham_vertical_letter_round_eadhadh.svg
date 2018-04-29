@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://web.resource.org/cc/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="60"
+   height="52"
+   id="Ogham vertical letter round eadhadh"
+   sodipodi:version="0.32"
+   inkscape:version="0.44"
+   version="1.0"
+   sodipodi:docbase="D:\Home\Wikipedia\up"
+   sodipodi:docname="Ogham vertical letter round eadhadh.svg">
+  <defs
+     id="defs5898" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     gridtolerance="10000"
+     guidetolerance="10"
+     objecttolerance="10"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="9.9807692"
+     inkscape:cx="30"
+     inkscape:cy="26"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     inkscape:window-width="1024"
+     inkscape:window-height="682"
+     inkscape:window-x="-4"
+     inkscape:window-y="-4" />
+  <metadata
+     id="metadata5901">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-349,-502.3622)">
+    <path
+       style="fill:black;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:4.00000191;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 373.99998,543.3622 C 373.99998,545.40684 375.24063,547.15009 376.99998,547.9247 L 376.99998,554.3622 L 380.99998,554.3622 L 380.99998,547.9247 C 382.75933,547.15009 383.99998,545.40682 383.99998,543.3622 C 383.99998,541.31757 382.75933,539.5743 380.99998,538.7997 L 380.99998,537.9247 C 382.75933,537.15009 383.99998,535.40682 383.99998,533.3622 C 383.99998,531.31757 382.75933,529.5743 380.99998,528.7997 L 380.99998,527.9247 C 382.75933,527.15009 383.99998,525.40682 383.99998,523.3622 C 383.99998,521.31757 382.75933,519.5743 380.99998,518.7997 L 380.99998,517.9247 C 382.75933,517.15009 383.99998,515.40682 383.99998,513.3622 C 383.99998,511.31757 382.75933,509.5743 380.99998,508.7997 L 380.99998,502.3622 L 376.99998,502.3622 L 376.99998,508.7997 C 375.24064,509.5743 373.99998,511.31755 373.99998,513.3622 C 373.99998,515.40684 375.24063,517.15009 376.99998,517.9247 L 376.99998,518.7997 C 375.24064,519.5743 373.99998,521.31755 373.99998,523.3622 C 373.99998,525.40684 375.24063,527.15009 376.99998,527.9247 L 376.99998,528.7997 C 375.24064,529.5743 373.99998,531.31755 373.99998,533.3622 C 373.99998,535.40684 375.24063,537.15009 376.99998,537.9247 L 376.99998,538.7997 C 375.24064,539.5743 373.99998,541.31755 373.99998,543.3622 z "
+       id="path4897" />
+  </g>
+</svg>

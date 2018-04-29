@@ -1,0 +1,351 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="oghamBase">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="about">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element ref="title"/>
+                            <xs:element name="author"/>
+                            <xs:element ref="description"/>
+                            <xs:element minOccurs="0" ref="sources"/>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="oghamCharacters">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="ogham" maxOccurs="unbounded">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element ref="letter"/>
+                                        <xs:element maxOccurs="unbounded" minOccurs="0"
+                                            ref="altLetter"/>
+                                        <xs:element name="unicodeCharacter"/>
+                                        <xs:element maxOccurs="unbounded" ref="pronunciation"/>
+                                        <xs:element maxOccurs="unbounded" minOccurs="0"
+                                            ref="meaning"/>
+                                        <xs:element ref="series"/>
+                                        <xs:element ref="verseBríatharogamMorainnmacMoín"
+                                            minOccurs="0"/>
+                                        <xs:element ref="verseBríatharogamMaicindÓc" minOccurs="0"/>
+                                        <xs:element minOccurs="0" ref="verseBríatharogamConCulainn"/>
+                                        <xs:element ref="image" maxOccurs="unbounded"/>
+                                        <xs:element name="unicode"/>
+                                        <xs:element minOccurs="0" ref="description"/>
+                                        <xs:element ref="sources"/>
+                                    </xs:sequence>
+                                    <xs:attribute ref="id" use="required"/>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="sourceDefs">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="sourceDef" maxOccurs="unbounded">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element ref="title"/>
+                                        <xs:element ref="shortDescription"/>
+                                        <xs:element ref="url"/>
+                                    </xs:sequence>
+                                    <xs:attribute ref="id" use="required"/>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="outieSeriesIndex">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element maxOccurs="unbounded" name="indexSeries">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="seriesName"/>
+                                        <xs:element maxOccurs="unbounded" ref="oghamIdRef"/>
+                                    </xs:sequence>
+                                    <xs:attribute ref="id" use="required"/>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="recursiveOutieHierarchy">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element maxOccurs="unbounded" ref="category"/>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="sequences">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element maxOccurs="unbounded" name="sequence">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element ref="description"/>
+                                        <xs:element maxOccurs="unbounded" ref="oghamIdRef"/>
+                                        <xs:element ref="sources"/>
+                                    </xs:sequence>
+                                    <xs:attribute name="seqTitle"/>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:attribute name="id" type="xs:ID"/>
+    <xs:element name="image">
+        <xs:complexType>
+            <xs:simpleContent>
+                <xs:extension base="xs:string">
+                    <xs:attribute name="imageOrientation">
+                        <xs:simpleType>
+                            <xs:restriction base="xs:string">
+                                <xs:enumeration value="horizontal"/>
+                                <xs:enumeration value="vertical"/>
+                            </xs:restriction>
+                        </xs:simpleType>
+                    </xs:attribute>
+                </xs:extension>
+            </xs:simpleContent>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="verseBríatharogamMorainnmacMoín">
+        <xs:complexType mixed="true">
+            <xs:group ref="inline"/>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="verseBríatharogamMaicindÓc">
+        <xs:complexType mixed="true">
+            <xs:group ref="inline"/>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="verseBríatharogamConCulainn">
+        <xs:complexType mixed="true">
+            <xs:group ref="inline"/>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="series">
+        <xs:simpleType>
+            <xs:restriction base="xs:string">
+                <xs:enumeration value="Aicme Beithe"/>
+                <xs:enumeration value="Aicme hÚatha"/>
+                <xs:enumeration value="Aicme Muine"/>
+                <xs:enumeration value="Aicme Ailme"/>
+                <xs:enumeration value="forfeda"/>
+            </xs:restriction>
+        </xs:simpleType>
+    </xs:element>
+    <xs:element name="pronunciation">
+        <xs:complexType>
+            <xs:simpleContent>
+                <xs:extension base="xs:string">
+                    <xs:attribute name="language">
+                        <xs:simpleType>
+                            <xs:restriction base="xs:string">
+                                <xs:enumeration value="Old Irish"/>
+                            </xs:restriction>
+                        </xs:simpleType>
+                    </xs:attribute>
+                </xs:extension>
+            </xs:simpleContent>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="altLetter"/>
+    <xs:element name="letter"/>
+    <xs:element name="sources">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element maxOccurs="unbounded" name="sourceIdRef" type="xs:IDREF"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:group name="inline">
+        <xs:choice>
+            <xs:element minOccurs="0" ref="b"/>
+            <xs:element minOccurs="0" ref="i"/>
+            <xs:element minOccurs="0" ref="u"/>
+            <xs:element minOccurs="0" ref="xref"/>
+            <xs:element minOccurs="0" name="pubMentioned"/>
+        </xs:choice>
+    </xs:group>
+    <xs:group name="block">
+        <xs:choice>
+            <xs:element ref="p"/>
+            <xs:element ref="ul"/>
+            <xs:element ref="ol"/>
+            <xs:element ref="br"/>
+            <xs:element ref="table"/>
+            <xs:element name="media">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element ref="title"/>
+                        <xs:element minOccurs="0" name="caption">
+                            <xs:complexType>
+                                <xs:group ref="inline"/>
+                            </xs:complexType>
+                        </xs:element>
+                    </xs:sequence>
+                    <xs:attribute ref="id" use="required"/>
+                    <xs:attribute name="url" type="xs:string" use="required"/>
+                    <xs:attribute name="type" use="required">
+                        <xs:simpleType>
+                            <xs:restriction base="xs:NMTOKEN"/>
+                        </xs:simpleType>
+                    </xs:attribute>
+                    <xs:attribute name="style" type="xs:string"/>
+                </xs:complexType>
+            </xs:element>
+            <xs:element ref="editor"/>
+        </xs:choice>
+    </xs:group>
+    <xs:element name="description">
+        <xs:complexType mixed="true">
+            <xs:group maxOccurs="unbounded" ref="block"/>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="meaning">
+        <xs:complexType mixed="true">
+            <xs:attribute ref="meaningType" use="required"/>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="arborealTradition"/>
+    <xs:element name="shortDescription"/>
+    <xs:element name="url"/>
+    <xs:element name="title"> </xs:element>
+    <xs:element name="category">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="title"/>
+                <xs:element minOccurs="0" ref="description"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" name="oghamMeaningIdRef">
+                    <xs:complexType>
+                        <xs:attribute ref="meaningType" use="required"/>
+                        <xs:attribute name="idRef" type="xs:IDREF" use="required"/>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="category"/>
+            </xs:sequence>
+            <xs:attribute ref="id" use="required"/>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="indexedMeaning">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="wordOrPhrase">
+                    <xs:complexType mixed="true">
+                        <xs:group minOccurs="0" ref="inline"/>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element maxOccurs="unbounded" name="oghamRefId" type="xs:IDREF"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:attribute name="meaningType">
+        <xs:simpleType>
+            <xs:restriction base="xs:string">
+                <xs:enumeration value="botanicalTrees"/>
+                <xs:enumeration value="botanicalOtherPlants"/>
+                <xs:enumeration value="otherAbstractThings"/>
+                <xs:enumeration value="otherConcreteThings"/>
+            </xs:restriction>
+        </xs:simpleType>
+    </xs:attribute>
+    <xs:element name="p">
+        <xs:complexType mixed="true">
+            <xs:group ref="inline" maxOccurs="unbounded" minOccurs="0"/>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="ul">
+        <xs:complexType>
+            <xs:choice maxOccurs="unbounded">
+                <xs:element ref="li"/>
+                <xs:element ref="ul"/>
+            </xs:choice>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="ol">
+        <xs:complexType>
+            <xs:sequence maxOccurs="unbounded">
+                <xs:element maxOccurs="unbounded" ref="li"/>
+                <xs:element minOccurs="0" ref="ol"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="b"/>
+    <xs:element name="i"/>
+    <xs:element name="u"/>
+    <xs:element name="xref">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="xrefText">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="hotText"/>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+            <xs:attribute ref="id" use="required"/>
+            <xs:attribute name="type" use="required">
+                <xs:simpleType>
+                    <xs:restriction base="xs:NMTOKEN"/>
+                </xs:simpleType>
+            </xs:attribute>
+            <xs:attribute name="dest" use="required"/>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="li">
+        <xs:complexType mixed="true">
+            <xs:group maxOccurs="unbounded" minOccurs="0" ref="inline"/>
+        </xs:complexType>
+    </xs:element>
+    <xs:element fixed="" name="br" nillable="true"/>
+    <xs:element name="table">
+        <xs:complexType>
+            <xs:sequence maxOccurs="unbounded" minOccurs="0">
+                <xs:element maxOccurs="unbounded" name="tr">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element maxOccurs="unbounded" name="td">
+                                <xs:complexType>
+                                    <xs:choice maxOccurs="unbounded">
+                                        <xs:group ref="block"/>
+                                    </xs:choice>
+                                    <xs:attribute name="style" type="xs:string"/>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                        <xs:attribute name="style" type="xs:string"/>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+            <xs:attribute name="border" type="xs:string"/>
+            <xs:attribute name="cellSpacing" type="xs:string"/>
+            <xs:attribute name="cellPadding" type="xs:string"/>
+            <xs:attribute name="style" type="xs:string"/>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="editor">
+        <xs:complexType>
+            <xs:attribute name="showEdits" type="xs:boolean"/>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="relatedOghamChars">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="description"/>
+                <xs:element minOccurs="0" ref="image"/>
+                <xs:element maxOccurs="unbounded" ref="oghamIdRef"/>
+                <xs:element ref="sources"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="oghamIdRef" type="xs:IDREF"/>
+</xs:schema>

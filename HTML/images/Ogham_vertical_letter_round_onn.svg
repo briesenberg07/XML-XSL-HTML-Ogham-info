@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://web.resource.org/cc/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="60"
+   height="32.000011"
+   id="Ogham vertical letter round onn"
+   sodipodi:version="0.32"
+   inkscape:version="0.44"
+   version="1.0"
+   sodipodi:docbase="D:\Home\Wikipedia\up"
+   sodipodi:docname="Ogham vertical letter round onn.svg">
+  <defs
+     id="defs4991" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     gridtolerance="10000"
+     guidetolerance="10"
+     objecttolerance="10"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="16.2"
+     inkscape:cx="30"
+     inkscape:cy="16.000006"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     inkscape:window-width="1024"
+     inkscape:window-height="682"
+     inkscape:window-x="-4"
+     inkscape:window-y="-4" />
+  <metadata
+     id="metadata4994">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(210.2857,57.63782)">
+    <path
+       style="fill:black;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:4.00000191;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M -185.28572,-36.63779 C -185.28572,-34.59315 -184.04507,-32.8499 -182.28572,-32.07529 L -182.28572,-25.63779 L -178.28572,-25.63779 L -178.28572,-32.07529 C -176.52637,-32.8499 -175.28572,-34.59315 -175.28572,-36.63779 C -175.28572,-38.68242 -176.52637,-40.42568 -178.28572,-41.20029 L -178.28572,-42.07529 C -176.52637,-42.8499 -175.28572,-44.59315 -175.28572,-46.63779 C -175.28572,-48.68242 -176.52637,-50.42568 -178.28572,-51.20029 L -178.28572,-57.63779 L -182.28572,-57.63779 L -182.28572,-51.20029 C -184.04506,-50.42569 -185.28572,-48.68243 -185.28572,-46.63779 C -185.28572,-44.59315 -184.04507,-42.8499 -182.28572,-42.07529 L -182.28572,-41.20029 C -184.04506,-40.42569 -185.28572,-38.68243 -185.28572,-36.63779 z "
+       id="path4879" />
+  </g>
+</svg>

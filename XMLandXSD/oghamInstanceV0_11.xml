@@ -1,0 +1,674 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<oghamBase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="oghamSchemaV0_11.xsd">
+    <about>
+        <title>Ogham Information, Version 0.1</title>
+        <author>Benjamin M. Riesenberg</author>
+        <description>
+            <p> I created this site as a project for the <b>Technical Foundations of Information</b>
+                course at the University of Washington iSchool. I had a couple of goals: </p>
+            <ol>
+                <li>Learn about XML and using XML to organize information and create a
+                    publication--in this case a website</li>
+                <li>Learn more about the ogham characters and present it in a clear and precise
+                    way</li>
+            </ol>
+            <p> I succeeded in the first task to some extent. Regarding the second task, I do
+                present some information here, but let me be clear: </p>
+            <p> THE INFORMATION PRESENTED HERE HAS BEEN TAKEN DIRECTLY FROM THE WIKIPEDIA PAGES CITED BELOW, AND POURED INTO THE FORM YOU SEE HERE FOR THE PURPOSE OF LEARNING HOW TO USE XML SCHEMAS, INSTANCES, AND TRANSFORMS. </p>
+            <p> I had hoped to spend some time reading The Scholars' Primer--cited below both from
+                the Internet Archive and the Hathi Trust--and to present the information about
+                characters based on my close reading of this text. I should have known that I'd be
+                more than busy enough learning about XML and wouldn't have time for this. I will say
+                here that I understand that book to be a significant source on the ogham characters.
+                If I understand correctly, it summarizes a lot of what is known about the characters
+                based on manuscripts and other sources, and is where much of what I found at
+                Wikipedia came from. </p>
+        </description>
+        <sources>
+            <sourceIdRef>oghamWiki</sourceIdRef>
+            <sourceIdRef>briatharogamWiki</sourceIdRef>
+            <sourceIdRef>oghamWikiCommons</sourceIdRef>
+            <sourceIdRef>oghamUnicodeWiki</sourceIdRef>
+            <sourceIdRef>auraiceptInternetArchive</sourceIdRef>
+            <sourceIdRef>auraiceptHathiTrust</sourceIdRef>
+        </sources>
+    </about>
+    <oghamCharacters>
+        <ogham id="_B">
+            <letter>B</letter>
+            <unicodeCharacter>ᚁ</unicodeCharacter>
+            <pronunciation>Beith</pronunciation>
+            <pronunciation language="Old Irish">Beithe</pronunciation>
+            <meaning meaningType="botanicalTrees">Birch</meaning>
+            <series>Aicme Beithe</series>
+            <verseBríatharogamMorainnmacMoín><i>Féochos foltchain</i>: "Withered foot with fine
+                hair"</verseBríatharogamMorainnmacMoín>
+            <verseBríatharogamMaicindÓc><i>Glaisem cnis</i>: "Greyest of
+                skin"</verseBríatharogamMaicindÓc>
+            <verseBríatharogamConCulainn><i>Maise malach</i>: "Beauty of the
+                eyebrow"</verseBríatharogamConCulainn>
+            <image imageOrientation="horizontal">Ogham_letter_beith.svg</image>
+            <image imageOrientation="vertical">Ogham_vertical_letter_beith.svg</image>
+            <unicode>1681</unicode>
+            <description>
+                <p>So, to be honest, I <i>don't have</i> content that actually needs to be in this
+                    description element right now. I can, however, think of a few things that might
+                    be good to include if I had them:</p>
+                <ul>
+                    <li>Some fun facts. But they'd have to be <b>fun</b>.</li>
+                    <li>Some other sort of notes or somesuch. Something that <u>isn't included
+                            elsewhere</u>.</li>
+                    <li>Other stuff I can't think of right now.</li>
+                </ul>
+                <br/>
+                <p>Let me say a little more--I hope that I'll be able to use this kind of rich
+                    description element along with it's child elements in the future.</p>
+            </description>
+            <sources>
+                <sourceIdRef>oghamWiki</sourceIdRef>
+                <sourceIdRef>briatharogamWiki</sourceIdRef>
+                <sourceIdRef>oghamWikiCommons</sourceIdRef>
+                <sourceIdRef>oghamUnicodeWiki</sourceIdRef>
+            </sources>
+        </ogham>
+        <ogham id="_L">
+            <letter>L</letter>
+            <unicodeCharacter>ᚂ</unicodeCharacter>
+            <pronunciation>Luis</pronunciation>
+            <meaning meaningType="botanicalTrees">Rowan</meaning>
+            <series>Aicme Beithe</series>
+            <verseBríatharogamMorainnmacMoín><i>Lí súla</i>: "Lustre of the
+                eye"</verseBríatharogamMorainnmacMoín>
+            <verseBríatharogamMaicindÓc><i>Carae cethrae</i>: "Friend of
+                cattle"</verseBríatharogamMaicindÓc>
+            <verseBríatharogamConCulainn><i>Lúth cethrae</i>: "Sustenance of
+                cattle"</verseBríatharogamConCulainn>
+            <image imageOrientation="horizontal">Ogham_letter_luis.svg</image>
+            <image imageOrientation="vertical">Ogham_vertical_letter_luis.svg</image>
+            <unicode>1682</unicode>
+            <sources>
+                <sourceIdRef>oghamWiki</sourceIdRef>
+                <sourceIdRef>briatharogamWiki</sourceIdRef>
+                <sourceIdRef>oghamWikiCommons</sourceIdRef>
+                <sourceIdRef>oghamUnicodeWiki</sourceIdRef>
+            </sources>
+        </ogham>
+        <ogham id="_F">
+            <letter>F</letter>
+            <unicodeCharacter>ᚃ</unicodeCharacter>
+            <pronunciation>Fearn</pronunciation>
+            <meaning meaningType="botanicalTrees">Alder</meaning>
+            <series>Aicme Beithe</series>
+            <verseBríatharogamMorainnmacMoín><i>Airenach fían</i>: "Vanguard of
+                warriors"</verseBríatharogamMorainnmacMoín>
+            <verseBríatharogamMaicindÓc><i>Comét lachta</i>: "Milk
+                container"</verseBríatharogamMaicindÓc>
+            <verseBríatharogamConCulainn><i>Dín cridi</i>: "Protection of the
+                heart"</verseBríatharogamConCulainn>
+            <image imageOrientation="horizontal">Ogham_letter_fearn.svg</image>
+            <image imageOrientation="vertical">Ogham_vertical_letter_fearn.svg</image>
+            <unicode>1683</unicode>
+            <sources>
+                <sourceIdRef>oghamWiki</sourceIdRef>
+                <sourceIdRef>briatharogamWiki</sourceIdRef>
+                <sourceIdRef>oghamWikiCommons</sourceIdRef>
+                <sourceIdRef>oghamUnicodeWiki</sourceIdRef>
+            </sources>
+        </ogham>
+        <ogham id="_S">
+            <letter>S</letter>
+            <unicodeCharacter>ᚄ</unicodeCharacter>
+            <pronunciation>Sail</pronunciation>
+            <meaning meaningType="botanicalTrees">Willow</meaning>
+            <series>Aicme Beithe</series>
+            <verseBríatharogamMorainnmacMoín><i>Lí ambi</i>: "Pallor of a lifeless
+                one"</verseBríatharogamMorainnmacMoín>
+            <verseBríatharogamMaicindÓc><i>Lúth bech</i>: "Sustenance of
+                bees"</verseBríatharogamMaicindÓc>
+            <verseBríatharogamConCulainn><i>Tosach mela</i>: "Beginning of
+                honey"</verseBríatharogamConCulainn>
+            <image imageOrientation="horizontal">Ogham_letter_sail.svg</image>
+            <image imageOrientation="vertical">Ogham_vertical_letter_sail.svg</image>
+            <unicode>1684</unicode>
+            <sources>
+                <sourceIdRef>oghamWiki</sourceIdRef>
+                <sourceIdRef>briatharogamWiki</sourceIdRef>
+                <sourceIdRef>oghamWikiCommons</sourceIdRef>
+                <sourceIdRef>oghamUnicodeWiki</sourceIdRef>
+            </sources>
+        </ogham>
+        <ogham id="_N">
+            <letter>N</letter>
+            <unicodeCharacter>ᚅ</unicodeCharacter>
+            <pronunciation>Nion</pronunciation>
+            <pronunciation language="Old Irish">Nin</pronunciation>
+            <meaning meaningType="botanicalTrees">Ash</meaning>
+            <series>Aicme Beithe</series>
+            <verseBríatharogamMorainnmacMoín><i>Costud side</i>: "Establishing of
+                peace"</verseBríatharogamMorainnmacMoín>
+            <verseBríatharogamMaicindÓc><i>Bág ban</i>: "Boast of
+                women"</verseBríatharogamMaicindÓc>
+            <verseBríatharogamConCulainn><i>Bág maise</i>: "Boast of
+                beauty"</verseBríatharogamConCulainn>
+            <image imageOrientation="horizontal">Ogham_letter_nion.svg</image>
+            <image imageOrientation="vertical">Ogham_vertical_letter_nion.svg</image>
+            <unicode>1685</unicode>
+            <sources>
+                <sourceIdRef>oghamWiki</sourceIdRef>
+                <sourceIdRef>briatharogamWiki</sourceIdRef>
+                <sourceIdRef>oghamWikiCommons</sourceIdRef>
+                <sourceIdRef>oghamUnicodeWiki</sourceIdRef>
+            </sources>
+        </ogham>
+        <ogham id="_H">
+            <letter>H</letter>
+            <unicodeCharacter>ᚆ</unicodeCharacter>
+            <pronunciation>Uath</pronunciation>
+            <pronunciation language="Old Irish">Úath</pronunciation>
+            <meaning meaningType="otherAbstractThings">Horror</meaning>
+            <meaning meaningType="otherAbstractThings">Fear</meaning>
+            <meaning meaningType="botanicalTrees">White-thorn</meaning>
+            <series>Aicme hÚatha</series>
+            <verseBríatharogamMorainnmacMoín><i>Condál cúan</i>: "Assembly of packs of
+                hounds"</verseBríatharogamMorainnmacMoín>
+            <verseBríatharogamMaicindÓc><i>Bánad gnúise</i>: "Blanching of
+                faces"</verseBríatharogamMaicindÓc>
+            <verseBríatharogamConCulainn><i>Ansam aidche</i>: "Most difficult at
+                night"</verseBríatharogamConCulainn>
+            <image imageOrientation="horizontal">Ogham_letter_uath.svg</image>
+            <image imageOrientation="vertical">Ogham_vertical_letter_uath.svg</image>
+            <unicode>1686</unicode>
+            <sources>
+                <sourceIdRef>oghamWiki</sourceIdRef>
+                <sourceIdRef>briatharogamWiki</sourceIdRef>
+                <sourceIdRef>oghamWikiCommons</sourceIdRef>
+                <sourceIdRef>oghamUnicodeWiki</sourceIdRef>
+            </sources>
+        </ogham>
+        <ogham id="_D">
+            <letter>D</letter>
+            <unicodeCharacter>ᚇ</unicodeCharacter>
+            <pronunciation>Dair</pronunciation>
+            <meaning meaningType="botanicalTrees">Oak</meaning>
+            <series>Aicme hÚatha</series>
+            <verseBríatharogamMorainnmacMoín><i>Ardam dosae</i>: "Highest
+                tree"</verseBríatharogamMorainnmacMoín>
+            <verseBríatharogamMaicindÓc><i>Grés soír</i>: "Handicraft of a
+                craftsman"</verseBríatharogamMaicindÓc>
+            <verseBríatharogamConCulainn><i>Slechtam soíre</i>: "Most carved of
+                craftsmanship"</verseBríatharogamConCulainn>
+            <image imageOrientation="horizontal">Ogham_letter_dair.svg</image>
+            <image imageOrientation="vertical">Ogham_vertical_letter_dair.svg</image>
+            <unicode>1687</unicode>
+            <sources>
+                <sourceIdRef>oghamWiki</sourceIdRef>
+                <sourceIdRef>briatharogamWiki</sourceIdRef>
+                <sourceIdRef>oghamWikiCommons</sourceIdRef>
+                <sourceIdRef>oghamUnicodeWiki</sourceIdRef>
+            </sources>
+        </ogham>
+        <ogham id="_T">
+            <letter>T</letter>
+            <unicodeCharacter>ᚈ</unicodeCharacter>
+            <pronunciation>Tinne</pronunciation>
+            <meaning meaningType="otherConcreteThings">Bar of metal</meaning>
+            <meaning meaningType="otherConcreteThings">Ingot</meaning>
+            <meaning meaningType="botanicalTrees">Holly</meaning>
+            <series>Aicme hÚatha</series>
+            <verseBríatharogamMorainnmacMoín><i>Trian roith</i>: "One of three parts of a
+                wheel"</verseBríatharogamMorainnmacMoín>
+            <verseBríatharogamMaicindÓc><i>Smiur gúaile</i>: "Marrow of
+                (char)coal"</verseBríatharogamMaicindÓc>
+            <verseBríatharogamConCulainn><i>Trian n-airm</i>: "One of three parts of a
+                weapon"</verseBríatharogamConCulainn>
+            <image imageOrientation="horizontal">Ogham_letter_tinne.svg</image>
+            <image imageOrientation="vertical">Ogham_vertical_letter_tinne.svg</image>
+            <unicode>1688</unicode>
+            <sources>
+                <sourceIdRef>oghamWiki</sourceIdRef>
+                <sourceIdRef>briatharogamWiki</sourceIdRef>
+                <sourceIdRef>oghamWikiCommons</sourceIdRef>
+                <sourceIdRef>oghamUnicodeWiki</sourceIdRef>
+            </sources>
+        </ogham>
+        <ogham id="_C">
+            <letter>C</letter>
+            <unicodeCharacter>ᚉ</unicodeCharacter>
+            <pronunciation>Coll</pronunciation>
+            <meaning meaningType="botanicalTrees">Hazel</meaning>
+            <series>Aicme hÚatha</series>
+            <verseBríatharogamMorainnmacMoín><i>Caíniu fedaib</i>: "Fairest
+                tree"</verseBríatharogamMorainnmacMoín>
+            <verseBríatharogamMaicindÓc><i>Carae blóesc</i>: "Friend of
+                nutshells"</verseBríatharogamMaicindÓc>
+            <verseBríatharogamConCulainn><i>Milsem fedo</i>: "Sweetest
+                tree"</verseBríatharogamConCulainn>
+            <image imageOrientation="horizontal">Ogham_letter_coll.svg</image>
+            <image imageOrientation="vertical">Ogham_vertical_letter_coll.svg</image>
+            <unicode>1689</unicode>
+            <sources>
+                <sourceIdRef>oghamWiki</sourceIdRef>
+                <sourceIdRef>briatharogamWiki</sourceIdRef>
+                <sourceIdRef>oghamWikiCommons</sourceIdRef>
+                <sourceIdRef>oghamUnicodeWiki</sourceIdRef>
+            </sources>
+        </ogham>
+        <ogham id="_Q">
+            <letter>Q</letter>
+            <unicodeCharacter>ᚊ</unicodeCharacter>
+            <pronunciation>Ceirt</pronunciation>
+            <pronunciation language="Old Irish">Cert</pronunciation>
+            <series>Aicme hÚatha</series>
+            <verseBríatharogamMorainnmacMoín><i>Clithar baiscill</i>: "Shelter of a
+                [lunatic?]"</verseBríatharogamMorainnmacMoín>
+            <verseBríatharogamMaicindÓc><i>Bríg anduini</i>: "Substance of an insignificant
+                person"</verseBríatharogamMaicindÓc>
+            <verseBríatharogamConCulainn><i>Dígu fethail</i>: "Dregs of
+                clothing"</verseBríatharogamConCulainn>
+            <image imageOrientation="horizontal">Ogham_letter_ceirt.svg</image>
+            <image imageOrientation="vertical">Ogham_vertical_letter_ceirt.svg</image>
+            <unicode>168A</unicode>
+            <sources>
+                <sourceIdRef>oghamWiki</sourceIdRef>
+                <sourceIdRef>briatharogamWiki</sourceIdRef>
+                <sourceIdRef>oghamWikiCommons</sourceIdRef>
+                <sourceIdRef>oghamUnicodeWiki</sourceIdRef>
+            </sources>
+        </ogham>
+        <ogham id="_M">
+            <letter>M</letter>
+            <unicodeCharacter>ᚋ</unicodeCharacter>
+            <pronunciation>Muin</pronunciation>
+            <meaning meaningType="botanicalOtherPlants">Vine</meaning>
+            <series>Aicme Muine</series>
+            <verseBríatharogamMorainnmacMoín><i>Tressam fedmae</i>: "Strongest in
+                exertion"</verseBríatharogamMorainnmacMoín>
+            <verseBríatharogamMaicindÓc><i>Árusc n-airlig</i>: "Proverb of
+                slaughter"</verseBríatharogamMaicindÓc>
+            <verseBríatharogamConCulainn><i>Conar gotha</i>: "Path of the
+                voice"</verseBríatharogamConCulainn>
+            <image imageOrientation="horizontal">Ogham_letter_muin.svg</image>
+            <image imageOrientation="vertical">Ogham_vertical_letter_muin.svg</image>
+            <unicode>168B</unicode>
+            <sources>
+                <sourceIdRef>oghamWiki</sourceIdRef>
+                <sourceIdRef>briatharogamWiki</sourceIdRef>
+                <sourceIdRef>oghamWikiCommons</sourceIdRef>
+                <sourceIdRef>oghamUnicodeWiki</sourceIdRef>
+            </sources>
+        </ogham>
+        <ogham id="_G">
+            <letter>G</letter>
+            <unicodeCharacter>ᚌ</unicodeCharacter>
+            <pronunciation>Gort</pronunciation>
+            <meaning meaningType="otherConcreteThings">Field</meaning>
+            <meaning meaningType="botanicalOtherPlants">Ivy</meaning>
+            <series>Aicme Muine</series>
+            <verseBríatharogamMorainnmacMoín><i>Milsiu féraib</i>: "Sweetest
+                grass"</verseBríatharogamMorainnmacMoín>
+            <verseBríatharogamMaicindÓc><i>Ined erc</i>: "Suitable place for
+                cows"</verseBríatharogamMaicindÓc>
+            <verseBríatharogamConCulainn><i>Sásad ile</i>: "Sating of
+                multitudes"</verseBríatharogamConCulainn>
+            <image imageOrientation="horizontal">Ogham_letter_gort.svg</image>
+            <image imageOrientation="vertical">Ogham_vertical_letter_gort.svg</image>
+            <unicode>168C</unicode>
+            <sources>
+                <sourceIdRef>oghamWiki</sourceIdRef>
+                <sourceIdRef>briatharogamWiki</sourceIdRef>
+                <sourceIdRef>oghamWikiCommons</sourceIdRef>
+                <sourceIdRef>oghamUnicodeWiki</sourceIdRef>
+            </sources>
+        </ogham>
+        <ogham id="_NG">
+            <letter>NG</letter>
+            <unicodeCharacter>ᚍ</unicodeCharacter>
+            <pronunciation>nGéadal</pronunciation>
+            <pronunciation language="Old Irish">Gétal</pronunciation>
+            <meaning meaningType="otherAbstractThings">Killing</meaning>
+            <meaning meaningType="botanicalOtherPlants">Broom</meaning>
+            <meaning meaningType="botanicalOtherPlants">Fern</meaning>
+            <series>Aicme Muine</series>
+            <verseBríatharogamMorainnmacMoín><i>Lúth lego</i>: "Sustenance of a
+                leech"</verseBríatharogamMorainnmacMoín>
+            <verseBríatharogamMaicindÓc><i>Étiud midach</i>: "Raiment of
+                physicians"</verseBríatharogamMaicindÓc>
+            <verseBríatharogamConCulainn><i>Tosach n-échto</i>: "Beginning of
+                slaying"</verseBríatharogamConCulainn>
+            <image imageOrientation="horizontal">Ogham_letter_ngeadal.svg</image>
+            <image imageOrientation="vertical">Ogham_vertical_letter_ngeadal.svg</image>
+            <unicode>168D</unicode>
+            <sources>
+                <sourceIdRef>oghamWiki</sourceIdRef>
+                <sourceIdRef>briatharogamWiki</sourceIdRef>
+                <sourceIdRef>oghamWikiCommons</sourceIdRef>
+                <sourceIdRef>oghamUnicodeWiki</sourceIdRef>
+            </sources>
+        </ogham>
+        <ogham id="_Z">
+            <letter>Z</letter>
+            <unicodeCharacter>ᚎ</unicodeCharacter>
+            <pronunciation>Straif</pronunciation>
+            <pronunciation language="Old Irish">Straiph</pronunciation>
+            <meaning meaningType="otherConcreteThings">Sulphur</meaning>
+            <meaning meaningType="botanicalOtherPlants">Blackthorn</meaning>
+            <series>Aicme Muine</series>
+            <verseBríatharogamMorainnmacMoín><i>Tressam rúamnai</i>: "Strongest reddening
+                (dye)"</verseBríatharogamMorainnmacMoín>
+            <verseBríatharogamMaicindÓc><i>Mórad rún</i>: "Increase of
+                secrets"</verseBríatharogamMaicindÓc>
+            <verseBríatharogamConCulainn><i>Saigid nél</i>: "Seeking of
+                clouds"</verseBríatharogamConCulainn>
+            <image imageOrientation="horizontal">Ogham_letter_straif.svg</image>
+            <image imageOrientation="vertical">Ogham_vertical_letter_straif.svg</image>
+            <unicode>168E</unicode>
+            <sources>
+                <sourceIdRef>oghamWiki</sourceIdRef>
+                <sourceIdRef>briatharogamWiki</sourceIdRef>
+                <sourceIdRef>oghamWikiCommons</sourceIdRef>
+                <sourceIdRef>oghamUnicodeWiki</sourceIdRef>
+            </sources>
+        </ogham>
+        <ogham id="_R">
+            <letter>R</letter>
+            <unicodeCharacter>ᚏ</unicodeCharacter>
+            <pronunciation>Ruis</pronunciation>
+            <meaning meaningType="otherAbstractThings">Red</meaning>
+            <meaning meaningType="otherAbstractThings">Redness</meaning>
+            <meaning meaningType="botanicalOtherPlants">Elder</meaning>
+            <series>Aicme Muine</series>
+            <verseBríatharogamMorainnmacMoín><i>Tindem rucci</i>: "Most intense
+                blushing"</verseBríatharogamMorainnmacMoín>
+            <verseBríatharogamMaicindÓc><i>Rúamnae drech</i>: "Reddening of
+                faces"</verseBríatharogamMaicindÓc>
+            <verseBríatharogamConCulainn><i>Bruth fergae</i>: "Glow of
+                anger"</verseBríatharogamConCulainn>
+            <image imageOrientation="horizontal">Ogham_letter_ruis.svg</image>
+            <image imageOrientation="vertical">Ogham_vertical_letter_ruis.svg</image>
+            <unicode>168F</unicode>
+            <sources>
+                <sourceIdRef>oghamWiki</sourceIdRef>
+                <sourceIdRef>briatharogamWiki</sourceIdRef>
+                <sourceIdRef>oghamWikiCommons</sourceIdRef>
+                <sourceIdRef>oghamUnicodeWiki</sourceIdRef>
+            </sources>
+        </ogham>
+        <ogham id="_A">
+            <letter>A</letter>
+            <unicodeCharacter>ᚐ</unicodeCharacter>
+            <pronunciation>Ailm</pronunciation>
+            <meaning meaningType="botanicalTrees">Pine (uncertain)</meaning>
+            <meaning meaningType="botanicalTrees">Fir</meaning>
+            <series>Aicme Ailme</series>
+            <verseBríatharogamMorainnmacMoín><i>Ardam íachta</i>: "Loudest
+                groan"</verseBríatharogamMorainnmacMoín>
+            <verseBríatharogamMaicindÓc><i>Tosach frecrai</i>: "Beginning of an
+                answer"</verseBríatharogamMaicindÓc>
+            <verseBríatharogamConCulainn><i>Tosach garmae</i>: "Beginning of
+                calling"</verseBríatharogamConCulainn>
+            <image imageOrientation="horizontal">Ogham_letter_round_ailm.svg</image>
+            <image imageOrientation="vertical">Ogham_vertical_letter_round_ailm.svg</image>
+            <unicode>1690</unicode>
+            <sources>
+                <sourceIdRef>oghamWiki</sourceIdRef>
+                <sourceIdRef>briatharogamWiki</sourceIdRef>
+                <sourceIdRef>oghamWikiCommons</sourceIdRef>
+                <sourceIdRef>oghamUnicodeWiki</sourceIdRef>
+            </sources>
+        </ogham>
+        <ogham id="_O">
+            <letter>O</letter>
+            <unicodeCharacter>ᚑ</unicodeCharacter>
+            <pronunciation>Onn</pronunciation>
+            <meaning meaningType="botanicalTrees">Ash</meaning>
+            <meaning meaningType="botanicalOtherPlants">Furze</meaning>
+            <series>Aicme Ailme</series>
+            <verseBríatharogamMorainnmacMoín><i>Congnaid ech</i>: "Wounder of
+                horses"</verseBríatharogamMorainnmacMoín>
+            <verseBríatharogamMaicindÓc><i>Féthem soíre</i>: "Smoothest of
+                craftsmanship"</verseBríatharogamMaicindÓc>
+            <verseBríatharogamConCulainn><i>Lúth fían</i>: "[Equipment] of warrior
+                bands"</verseBríatharogamConCulainn>
+            <image imageOrientation="horizontal">Ogham_letter_round_onn.svg</image>
+            <image imageOrientation="vertical">Ogham_vertical_letter_round_onn.svg</image>
+            <unicode>1691</unicode>
+            <sources>
+                <sourceIdRef>oghamWiki</sourceIdRef>
+                <sourceIdRef>briatharogamWiki</sourceIdRef>
+                <sourceIdRef>oghamWikiCommons</sourceIdRef>
+                <sourceIdRef>oghamUnicodeWiki</sourceIdRef>
+            </sources>
+        </ogham>
+        <ogham id="_U">
+            <letter>U</letter>
+            <unicodeCharacter>ᚒ</unicodeCharacter>
+            <pronunciation>Úr</pronunciation>
+            <meaning meaningType="otherConcreteThings">Earth</meaning>
+            <meaning meaningType="otherConcreteThings">Clay</meaning>
+            <meaning meaningType="otherConcreteThings">Soil</meaning>
+            <meaning meaningType="botanicalOtherPlants">Heath</meaning>
+            <series>Aicme Ailme</series>
+            <verseBríatharogamMorainnmacMoín><i>Úaraib adbaib</i>: "In cold
+                dwellings"</verseBríatharogamMorainnmacMoín>
+            <verseBríatharogamMaicindÓc><i>Sílad cland</i>: "Propagation of
+                plants"</verseBríatharogamMaicindÓc>
+            <verseBríatharogamConCulainn><i>Forbbaid ambí</i>: "Shroud of a lifeless
+                one"</verseBríatharogamConCulainn>
+            <image imageOrientation="horizontal">Ogham_letter_round_ur.svg</image>
+            <image imageOrientation="vertical">Ogham_vertical_letter_round_ur.svg</image>
+            <unicode>1692</unicode>
+            <sources>
+                <sourceIdRef>oghamWiki</sourceIdRef>
+                <sourceIdRef>briatharogamWiki</sourceIdRef>
+                <sourceIdRef>oghamWikiCommons</sourceIdRef>
+                <sourceIdRef>oghamUnicodeWiki</sourceIdRef>
+            </sources>
+        </ogham>
+        <ogham id="_E">
+            <letter>E</letter>
+            <unicodeCharacter>ᚓ</unicodeCharacter>
+            <pronunciation>Eadhadh</pronunciation>
+            <pronunciation language="Old Irish">Edad</pronunciation>
+            <series>Aicme Ailme</series>
+            <verseBríatharogamMorainnmacMoín><i>Érgnaid fid</i>: "Discerning
+                tree"</verseBríatharogamMorainnmacMoín>
+            <verseBríatharogamMaicindÓc><i>Commaín carat</i>: "Exchange of
+                friends"</verseBríatharogamMaicindÓc>
+            <verseBríatharogamConCulainn><i>Bráthair bethi</i> (?): "Brother of birch"
+                (?)</verseBríatharogamConCulainn>
+            <image imageOrientation="horizontal">Ogham_letter_round_eadhadh.svg</image>
+            <image imageOrientation="vertical">Ogham_vertical_letter_round_eadhadh.svg</image>
+            <unicode>1693</unicode>
+            <sources>
+                <sourceIdRef>oghamWiki</sourceIdRef>
+                <sourceIdRef>briatharogamWiki</sourceIdRef>
+                <sourceIdRef>oghamWikiCommons</sourceIdRef>
+                <sourceIdRef>oghamUnicodeWiki</sourceIdRef>
+            </sources>
+        </ogham>
+        <ogham id="_I">
+            <letter>I</letter>
+            <unicodeCharacter>ᚔ</unicodeCharacter>
+            <pronunciation>Iodhadh</pronunciation>
+            <pronunciation language="Old Irish">Idad</pronunciation>
+            <meaning meaningType="botanicalTrees">Yew (uncertain)</meaning>
+            <series>Aicme Ailme</series>
+            <verseBríatharogamMorainnmacMoín><i>Sinem fedo</i>: "Oldest
+                tree"</verseBríatharogamMorainnmacMoín>
+            <verseBríatharogamMaicindÓc><i>Caínem sen</i>: "Fairest of the
+                ancients"</verseBríatharogamMaicindÓc>
+            <verseBríatharogamConCulainn><i>Lúth lobair</i> (?): "Energy of an infirm person"
+                (?)</verseBríatharogamConCulainn>
+            <image imageOrientation="horizontal">Ogham_letter_round_iodhadh.svg</image>
+            <image imageOrientation="vertical">Ogham_vertical_letter_round_iodhadh.svg</image>
+            <unicode>1694</unicode>
+            <sources>
+                <sourceIdRef>oghamWiki</sourceIdRef>
+                <sourceIdRef>briatharogamWiki</sourceIdRef>
+                <sourceIdRef>oghamWikiCommons</sourceIdRef>
+                <sourceIdRef>oghamUnicodeWiki</sourceIdRef>
+            </sources>
+        </ogham>
+    </oghamCharacters>
+    <sourceDefs>
+        <sourceDef id="oghamWiki">
+            <title>Ogham: From Wikipedia, the free encyclopedia</title>
+            <shortDescription>A Wikipedia page on the Ogham characters</shortDescription>
+            <url>https://en.wikipedia.org/wiki/Ogham</url>
+        </sourceDef>
+        <sourceDef id="briatharogamWiki">
+            <title>Bríatharogam: From Wikipedia, the free encyclopedia</title>
+            <shortDescription>A Wikipedia page on the Bríatharogam</shortDescription>
+            <url>https://en.wikipedia.org/wiki/Br%C3%ADatharogam</url>
+        </sourceDef>
+        <sourceDef id="oghamWikiCommons">
+            <title>Ogham alphabet: From Wikimedia Commons, the free media repository</title>
+            <shortDescription>A Wikimedia Commons gallery of Ogham characters</shortDescription>
+            <url>https://commons.wikimedia.org/wiki/Ogham_alphabet</url>
+        </sourceDef>
+        <sourceDef id="oghamUnicodeWiki">
+            <title>Ogham (Unicode block): From Wikipedia, the free encyclopedia</title>
+            <shortDescription>A Wikipedia page with details on the Unicode block for the Ogham
+                characters</shortDescription>
+            <url>https://en.wikipedia.org/wiki/Ogham_(Unicode_block)</url>
+        </sourceDef>
+        <sourceDef id="oghamInscriptionWiki">
+            <title>Ogham inscription: From Wikipedia, the free encyclopedia</title>
+            <shortDescription>A Wikipedia page about ogham inscriptions</shortDescription>
+            <url>https://en.wikipedia.org/wiki/Ogham_inscription</url>
+        </sourceDef>
+        <sourceDef id="auraiceptInternetArchive">
+            <title> Auraicept na-éces: The scholars' primer; being the texts of the Ogham tract from
+                the Book of Ballymote and the Yellow book of Lecan, and the text of the Trefhocul
+                from the Book of Leinster </title>
+            <shortDescription>See my comments in this site's About page</shortDescription>
+            <!-- This short description should eventually be changed -->
+            <url>https://archive.org/details/auraicept00calduoft</url>
+        </sourceDef>
+        <sourceDef id="auraiceptHathiTrust">
+            <title> Auraicept na n-éces: the scholars' primer; being the texts of the Ogham tract
+                from the Book of Ballymote and the Yellow book of Lecan, and thetext of the
+                Trefhocul from the Book of Leinster; ed. from eight manuscripts, with introduction,
+                translation of the Ballymote text, notes, and indices by George Calder. </title>
+            <shortDescription>Again, please see my comments in this site's About
+                page</shortDescription>
+            <url>https://catalog.hathitrust.org/Record/006219569</url>
+        </sourceDef>
+    </sourceDefs>
+    <outieSeriesIndex>
+        <indexSeries id="Beithe">
+            <seriesName>Aicme Beithe</seriesName>
+            <oghamIdRef>_B</oghamIdRef>
+            <oghamIdRef>_L</oghamIdRef>
+            <oghamIdRef>_F</oghamIdRef>
+            <oghamIdRef>_S</oghamIdRef>
+            <oghamIdRef>_N</oghamIdRef>
+        </indexSeries>
+        <indexSeries id="hÚatha">
+            <seriesName>Aicme hÚatha</seriesName>
+            <oghamIdRef>_H</oghamIdRef>
+            <oghamIdRef>_D</oghamIdRef>
+            <oghamIdRef>_T</oghamIdRef>
+            <oghamIdRef>_C</oghamIdRef>
+            <oghamIdRef>_Q</oghamIdRef>
+        </indexSeries>
+        <indexSeries id="Muine">
+            <seriesName>Aicme Muine</seriesName>
+            <oghamIdRef>_M</oghamIdRef>
+            <oghamIdRef>_G</oghamIdRef>
+            <oghamIdRef>_NG</oghamIdRef>
+            <oghamIdRef>_Z</oghamIdRef>
+            <oghamIdRef>_R</oghamIdRef>
+        </indexSeries>
+        <indexSeries id="Ailme">
+            <seriesName>Aicme Ailme</seriesName>
+            <oghamIdRef>_A</oghamIdRef>
+            <oghamIdRef>_O</oghamIdRef>
+            <oghamIdRef>_U</oghamIdRef>
+            <oghamIdRef>_E</oghamIdRef>
+            <oghamIdRef>_I</oghamIdRef>
+        </indexSeries>
+    </outieSeriesIndex>
+    <recursiveOutieHierarchy>
+        <!-- *Add new IdRefs for new characters* -->
+        <category id="meaningsBotanical">
+            <title>Botanical meanings</title>
+            <category id="meaningsTrees">
+                <title>Trees</title>
+                <oghamMeaningIdRef meaningType="botanicalTrees" idRef="_B"/>
+                <oghamMeaningIdRef meaningType="botanicalTrees" idRef="_L"/>
+                <oghamMeaningIdRef meaningType="botanicalTrees" idRef="_F"/>
+                <oghamMeaningIdRef meaningType="botanicalTrees" idRef="_S"/>
+                <oghamMeaningIdRef meaningType="botanicalTrees" idRef="_N"/>
+                <oghamMeaningIdRef meaningType="botanicalTrees" idRef="_H"/>
+                <oghamMeaningIdRef meaningType="botanicalTrees" idRef="_D"/>
+                <oghamMeaningIdRef meaningType="botanicalTrees" idRef="_T"/>
+                <oghamMeaningIdRef meaningType="botanicalTrees" idRef="_C"/>
+                <oghamMeaningIdRef meaningType="botanicalTrees" idRef="_A"/>
+                <oghamMeaningIdRef meaningType="botanicalTrees" idRef="_O"/>
+                <oghamMeaningIdRef meaningType="botanicalTrees" idRef="_I"/>
+            </category>
+            <category id="meaningsOtherPlants">
+                <title>Other plants</title>
+                <oghamMeaningIdRef meaningType="botanicalOtherPlants" idRef="_M"/>
+                <oghamMeaningIdRef meaningType="botanicalOtherPlants" idRef="_G"/>
+                <oghamMeaningIdRef meaningType="botanicalOtherPlants" idRef="_NG"/>
+                <!-- I wonders what would happen here: It renders both meanings when transformed to HTML. -->
+                <oghamMeaningIdRef meaningType="botanicalOtherPlants" idRef="_Z"/>
+                <oghamMeaningIdRef meaningType="botanicalOtherPlants" idRef="_R"/>
+                <oghamMeaningIdRef meaningType="botanicalOtherPlants" idRef="_O"/>
+                <oghamMeaningIdRef meaningType="botanicalOtherPlants" idRef="_U"/>
+            </category>
+        </category>
+        <category id="meaningsOther">
+            <title>Other meanings</title>
+            <category id="abstractThings">
+                <title>Abstract things</title>
+                <oghamMeaningIdRef meaningType="otherAbstractThings" idRef="_H"/>
+                <oghamMeaningIdRef meaningType="otherAbstractThings" idRef="_NG"/>
+                <oghamMeaningIdRef meaningType="otherAbstractThings" idRef="_R"/>
+                <!-- H and NG, as NG above in botanicalOtherPlants, should render both otherAbstractThings meanings when rendered. -->
+            </category>
+            <category id="concreteThings">
+                <title>Concrete things</title>
+                <oghamMeaningIdRef meaningType="otherConcreteThings" idRef="_T"/>
+                <oghamMeaningIdRef meaningType="otherConcreteThings" idRef="_G"/>
+                <oghamMeaningIdRef meaningType="otherConcreteThings" idRef="_Z"/>
+                <oghamMeaningIdRef meaningType="otherConcreteThings" idRef="_U"/>
+            </category>
+        </category>
+    </recursiveOutieHierarchy>
+    <sequences>
+        <!-- Add more sequences? So each character is assigned one? How are characters linked to sequences?
+        I'm unclear. -->
+        <sequence seqTitle="CIIC_503">
+            <description>
+                <p>This inscription is translated as "<i>Dovaido son of the Druid</i>." It is
+                    located in Ballaqueeney, Port St Mary, Rushen, on the Isle of Man.</p>
+            </description>
+            <oghamIdRef>_D</oghamIdRef>
+            <oghamIdRef>_O</oghamIdRef>
+            <oghamIdRef>_F</oghamIdRef>
+            <oghamIdRef>_A</oghamIdRef>
+            <oghamIdRef>_I</oghamIdRef>
+            <oghamIdRef>_D</oghamIdRef>
+            <oghamIdRef>_O</oghamIdRef>
+            <oghamIdRef>_N</oghamIdRef>
+            <oghamIdRef>_A</oghamIdRef>
+            <oghamIdRef>_M</oghamIdRef>
+            <oghamIdRef>_A</oghamIdRef>
+            <oghamIdRef>_Q</oghamIdRef>
+            <oghamIdRef>_I</oghamIdRef>
+            <oghamIdRef>_D</oghamIdRef>
+            <oghamIdRef>_R</oghamIdRef>
+            <oghamIdRef>_O</oghamIdRef>
+            <oghamIdRef>_A</oghamIdRef>
+            <oghamIdRef>_T</oghamIdRef>
+            <oghamIdRef>_A</oghamIdRef>
+            <sources>
+                <sourceIdRef>oghamInscriptionWiki</sourceIdRef>
+            </sources>
+        </sequence>
+    </sequences>
+</oghamBase>
